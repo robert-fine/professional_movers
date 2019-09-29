@@ -36,6 +36,10 @@
   padding: 0 0.2rem;
 }
 
+#home {
+  height: 100vh;
+}
+
 #reviews .testimonials {
   display: flex;
   flex-direction: row;

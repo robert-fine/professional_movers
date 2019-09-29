@@ -137,7 +137,7 @@ img {
   background: var(--dark-color) url("../img/truck.jpg") no-repeat center
     center/cover;
   background-blend-mode: overlay;
-  height: 100vh;
+  height: 70vh;
   color: #fff;
 }
 
