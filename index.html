@@ -183,7 +183,12 @@
           <div class="flex">
             <div class="contact-form py-2">
               <p>Please use the below form to request a quote.</p>
-              <form>
+              <form
+                name="contact"
+                data-netlify-recaptcha="true"
+                method="POST"
+                data-netlify="true"
+              >
                 <div class="form-group">
                   <label for="name">Name</label>
                   <input
@@ -219,6 +224,7 @@
                     placeholder="Enter Message"
                   ></textarea>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
                 <input type="submit" value="Send" class="btn btn-dark" />
               </form>
             </div>
