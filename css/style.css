@@ -184,7 +184,8 @@ img {
 
 /* Section: About Us */
 #about {
-  background: var(--light-color);
+  background: var(--dark-color);
+  color: var(--light-color);
 }
 
 #about img {
@@ -198,12 +199,17 @@ img {
   display: block;
   text-align: center;
   font-size: 1.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   line-height: 1.6rem;
 }
 
+#about p {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 /* Section: Contact */
-#contact .container {
+#contact .container .flex {
   display: flex;
   flex-direction: column;
 }
@@ -215,11 +221,6 @@ img {
 #contact .contact-form label {
   display: block;
 }
-/* 
-#contact .contact-form input,
-#contact .contact-form textarea {
-  width: 0%;
-  padding: 0.5rem;} */
 
 #contact .form-group input,
 #contact .form-group textarea {
@@ -232,8 +233,6 @@ img {
   display: block;
   margin: auto;
   text-align: center;
-  /* align-items: center;
-  align-self: center; */
   padding: 0.5rem 3rem;
 }
 
@@ -250,7 +249,13 @@ img {
 }
 
 #contact .connect .contact-info li {
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: var(--dark-color) dotted 1px;
+}
+
+#contact .connect .contact-info li:last-child {
+  border: none;
 }
 
 #contact .connect .social {
@@ -266,6 +271,10 @@ img {
 
 #contact .connect .social ul li {
   align-self: center;
+}
+
+#contact .connect .social a:hover {
+  color: var(--primary-color);
 }
 
 /* Footer */

@@ -123,21 +123,25 @@
           <h2 class="m-heading text-center py-1">
             What they say about us
           </h2>
-          <div class="testimonial bg-secondary">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit
-              sunt recusandae dolorem! Voluptas ullam praesentium corrupti eum
-              voluptatem tenetur veritatis inventore. Maiores similique iure
-              corrupti cum quam? Veritatis, magnam?"
-            </p>
-          </div>
-          <div class="testimonial bg-secondary">
-            <p>
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit
-              sunt recusandae dolorem! Voluptas ullam praesentium corrupti eum
-              voluptatem tenetur veritatis inventore. Maiores similique iure
-              corrupti cum quam? Veritatis, magnam?"
-            </p>
+          <div class="testimonials">
+            <div class="testimonial bg-secondary">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit
+                sunt recusandae dolorem! Voluptas ullam praesentium corrupti eum
+                voluptatem tenetur veritatis inventore. Maiores similique iure
+                corrupti cum quam? Veritatis, magnam?"
+              </p>
+              <p>- Scott Smith</p>
+            </div>
+            <div class="testimonial bg-secondary">
+              <p>
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                sit sunt recusandae dolorem! Voluptas ullam praesentium corrupti
+                eum voluptatem tenetur veritatis inventore. Maiores similique
+                iure corrupti cum quam? Veritatis, magnam?"
+              </p>
+              <p>- Laura Miller</p>
+            </div>
           </div>
         </div>
       </section>
@@ -160,11 +164,11 @@
           <div class="movers">
             <div class="jeff">
               <img src="./img/jeff.jpg" alt="jeff" />
-              <p>Mover One</p>
+              <p>Jeff</p>
             </div>
             <div class="patrick">
               <img src="./img/patrick.jpg" alt="patrick" />
-              <p>Mover Two</p>
+              <p>Patrick</p>
             </div>
           </div>
         </div>
@@ -172,100 +176,93 @@
 
       <!-- Section: Contact -->
       <section id="contact">
-        <div class="container">
-          <div class="contact-form py-2">
-            <h2 class="m-heading text-center">
-              Contact Us
-            </h2>
-            <p>Please use the below form to request a quote.</p>
-            <form>
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="Enter Name"
-                />
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Enter Email"
-                />
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone</label>
-                <input
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  placeholder="Enter Phone Number"
-                />
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Enter Message"
-                ></textarea>
-              </div>
-              <input type="submit" value="Send" class="btn btn-dark" />
-            </form>
-          </div>
-          <div class="connect py-2">
-            <div class="contact-info">
-              <ul>
-                <li>
-                  <i class="fas fa-envelope"></i><strong> Email us:</strong
-                  ><br />
-                  <a href="mailto:contact@professionalmovers.com">
-                    contact@professionalmovers.com</a
-                  >
-                </li>
-                <li>
-                  <i class="fas fa-phone"></i><strong> Call us:</strong><br /><a
-                    href="tel:55555555555"
-                  >
-                    (555) 555-5555</a
-                  >
-                </li>
-                <li>
-                  <p>
-                    <i class="fas fa-building"></i><strong> Our Address:</strong
-                    ><br />
-                    101 Madeup St.<br />
-                    Lafayette, LA 70506
-                  </p>
-                </li>
-              </ul>
+        <div class="container py-2">
+          <h2 class="m-heading text-center">
+            Contact Us
+          </h2>
+          <div class="flex">
+            <div class="contact-form py-2">
+              <p>Please use the below form to request a quote.</p>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter Phone Number"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Enter Message"
+                  ></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark" />
+              </form>
             </div>
-            <div class="social">
-              <h3>Connect with us</h3>
-              <ul class="py-1">
-                <li>
-                  <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-yelp fa-2x"></i></a>
-                </li>
-              </ul>
+            <div class="connect py-2">
+              <div class="social">
+                <h3>Connect with us</h3>
+                <ul class="py-1">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-yelp fa-2x"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="contact-info">
+                <ul>
+                  <li>
+                    <i class="fas fa-envelope"></i><strong> Email us:</strong
+                    ><br />
+                    <a href="mailto:contact@#.com">
+                      contact@professionalmovers.com</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-phone"></i><strong> Call us:</strong
+                    ><br /><a href="tel:55555555555"> (555) 555-5555</a>
+                  </li>
+                  <li>
+                    <p>
+                      <i class="fas fa-building"></i
+                      ><strong> Our Address:</strong><br />
+                      101 Main St.<br />
+                      Anywhere, USA 50505
+                    </p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-
-        <!-- Add socials, email, and phone link on side using flexbox -->
-
-        <!-- <div class="connect">
-      <p>Connect With Us</p>
-    </div> -->
       </section>
     </main>
 
