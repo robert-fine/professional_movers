@@ -66,12 +66,12 @@ img {
 }
 
 .btn {
-  display: inline-block;
+  /* display: inline-block; */
   border: none;
   background: var(--primary-color);
   color: var(--light-color);
-  padding: 0.5rem 1.5rem;
-  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -109,7 +109,6 @@ img {
 #nav img {
   align-self: center;
   width: 150px;
-  padding-bottom: 0.5rem;
 }
 
 #nav .nav-right {
@@ -117,27 +116,27 @@ img {
 }
 
 #nav .nav-right li {
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 
 #nav .nav-right a {
   padding: 0.5rem 1rem;
   transition: all 0.3s ease-in-out;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 #nav .nav-right a:hover {
   background: var(--secondary-color);
   color: #fff;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 /* Hero */
 #home {
-  background: var(--dark-color) url("../img/truck.jpg") no-repeat center
+  background: var(--dark-color) url('../img/truck.jpg') no-repeat fixed
     center/cover;
   background-blend-mode: overlay;
-  height: 70vh;
+  height: 80vh;
   color: #fff;
 }
 
@@ -165,7 +164,7 @@ img {
 
 /* Section: Reviews */
 #reviews {
-  background: var(--dark-color) url("../img/truck.jpg") no-repeat center
+  background: var(--dark-color) url('../img/typing.jpg') no-repeat fixed
     center/cover;
   height: 100%;
   color: #fff;
@@ -215,7 +214,7 @@ img {
 }
 
 #contact .form-group {
-  margin: 0.75rem;
+  margin: 0.75rem 0rem;
 }
 
 #contact .contact-form label {
@@ -231,7 +230,6 @@ img {
 
 #contact .btn {
   display: block;
-  margin: auto;
   text-align: center;
   padding: 0.5rem 3rem;
 }

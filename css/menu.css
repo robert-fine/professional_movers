@@ -47,7 +47,7 @@
 /* Hamburger Lines - top & bottom */
 .menu-wrap .hamburger > div::before,
 .menu-wrap .hamburger > div::after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 1;
   top: -10px;
@@ -109,8 +109,8 @@
 .menu-wrap .menu > div {
   background: var(--overlay-color);
   /* border-radius: 50%; */
-  width: 200vw;
-  height: 200vw;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex: none;
   align-items: center;

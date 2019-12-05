@@ -59,6 +59,9 @@
   padding-bottom: 0;
 }
 
+#about .jeff {
+  padding-bottom: 0;
+}
 #contact .container .flex {
   flex-direction: row;
   justify-content: space-evenly;
