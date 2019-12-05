@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,6 +51,9 @@ img {
 }
 .py-3 {
   padding: 3rem 0;
+}
+.py-4 {
+  padding: 4.2rem 0;
 }
 .p1 {
   padding: 1.5rem;
@@ -113,10 +117,6 @@ img {
 
 #nav .nav-right {
   padding: 0.5rem 1.5rem;
-}
-
-#nav .nav-right li {
-  /* padding: 1rem 0; */
 }
 
 #nav .nav-right a {
