@@ -134,9 +134,7 @@ img {
 
 /* Hero */
 #home {
-  background: var(--dark-color) url('../img/truck.jpg') no-repeat fixed
-    center/cover;
-  background-blend-mode: overlay;
+  background: url('../img/truck.jpg') no-repeat fixed center/cover;
   height: 80vh;
   color: #fff;
 }
@@ -165,12 +163,10 @@ img {
 
 /* Section: Reviews */
 #reviews {
-  background: var(--dark-color) url('../img/typing.jpg') no-repeat fixed
-    center/cover;
+  background: url('../img/typing.jpg') no-repeat fixed center/cover;
   height: 100%;
   color: #fff;
   /* overlay */
-  background-blend-mode: overlay;
 }
 
 #reviews .testimonial {
