@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   line-height: 1.5;
   background: var(--light-color);
 }
@@ -69,6 +69,11 @@ img {
   text-align: center;
 }
 
+.lead {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 .btn {
   /* display: inline-block; */
   border: none;
@@ -81,6 +86,13 @@ img {
 
 .btn:hover {
   background: var(--secondary-color);
+}
+
+.card {
+  background: var(--light-color);
+  color: var(--dark-color);
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 /* Navigation */
@@ -150,15 +162,23 @@ img {
 
 /* Section: Services */
 #services {
-  background: var(--light-color);
+  background: var(--dark-color);
+  color: #fff;
 }
 
 #services .services {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  /* display: flex;
   text-align: center;
   justify-content: space-evenly;
-  flex: 1;
+  flex: 1; */
   padding-bottom: 2rem;
+}
+
+#services p {
+  padding-top: 1rem;
 }
 
 /* Section: Reviews */
@@ -166,7 +186,6 @@ img {
   background: url('../img/typing.jpg') no-repeat fixed center/cover;
   height: 100%;
   color: #fff;
-  /* overlay */
 }
 
 #reviews .testimonial {

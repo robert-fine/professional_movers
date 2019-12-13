@@ -44,6 +44,10 @@
   height: 100vh;
 }
 
+#services .services {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 #reviews .testimonials {
   display: flex;
   flex-direction: row;
