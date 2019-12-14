@@ -35,6 +35,18 @@ img {
   width: 100%;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 /* Utility */
 .container {
   max-width: var(--max-width);
@@ -168,17 +180,13 @@ img {
 
 #services .services {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1rem;
-  /* display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-  flex: 1; */
   padding-bottom: 2rem;
 }
 
 #services p {
-  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Section: Reviews */
@@ -216,6 +224,11 @@ img {
   font-size: 1.5rem;
   padding-bottom: 5rem;
   line-height: 1.6rem;
+}
+
+#about .jeff {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 #about p {
